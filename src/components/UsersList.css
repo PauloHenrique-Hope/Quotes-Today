@@ -1,0 +1,32 @@
+.UsersList{
+    margin-top: 50px;
+    width: 1000px;
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(auto);
+    justify-content: center;
+    align-content: center;    
+    padding: 10px;
+    background-color: #f1f3f5;
+    box-shadow: 2px 2px 2px rgb(141, 141, 141, 0.555);
+}
+
+.User{
+    width: 250px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    
+}
+
+.User p{
+    color: #212529;
+    font-weight: bolder;
+}
+
+.Quote{
+    font-size: 17px;
+    color: #868e96;
+}

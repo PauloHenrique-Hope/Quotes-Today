@@ -1,0 +1,18 @@
+.Header{
+    margin-top: 20px auto;
+    
+}
+
+.Header h1{
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    color: #343a40;
+}
+
+.Header p{
+    font-size: 27px;
+    font-weight: normal;
+    letter-spacing: 1.8px;
+    color: #868e96;
+}
