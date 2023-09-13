@@ -1,6 +1,6 @@
 .UserForm-Container{
     display: flex;
-    width: 400px;
+    width: 350px;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -9,6 +9,7 @@
     background-color: #f1f3f5;
     box-shadow: 2px 2px 2px rgb(141, 141, 141, 0.555);
     margin-bottom: 40px;
+    gap: 4px;
 }
 
 .UserForm-Container label{

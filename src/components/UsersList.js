@@ -2,10 +2,9 @@
 // CSS
 import './UsersList.css'
 
-// DATA
-import users from '../data/data'
 
-const UsersList = () =>{
+const UsersList = ({users}) =>{
+    
     return(
         <div className="UsersList">
             {users.map(user => (
